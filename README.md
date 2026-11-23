@@ -47,5 +47,5 @@ Researched and curated daily by Muse, for [Irfan Zahoor](https://github.com/irfa
 - [ERPNext documentation — What's New](https://docs.erpnext.com/)
 
 ### AI & integrations (useful for ERPNext)
-- [Frappe Assistant Core (MCP server)](https://github.com/Promantia/Frappe-Assistant-Core)
+- [Frappe Assistant Core (MCP server)](https://github.com/buildswithpaul/Frappe_Assistant_Core)
 - [Frappe Cloud Marketplace — AI apps](https://cloud.frappe.io/marketplace/search?search=AI)
