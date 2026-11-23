@@ -1,8 +1,23 @@
-# Frappe Updates
+# Frappe Updates — Daily Frappe / ERPNext News, Releases & New Apps
 
-Daily Frappe / ERPNext updates — releases, features, new apps, and what they mean for ERP users and developers.
+> **Daily Frappe / ERPNext updates — releases, new apps, features, and what they mean for ERP users and developers. Curated daily, verified from official sources.**
 
-Researched and curated daily by Muse, for [Irfan Zahoor](https://github.com/irfanzahoor).
+![Frappe](https://img.shields.io/badge/Frappe-v16-blue)
+![ERPNext](https://img.shields.io/badge/ERPNext-v16.60-blue)
+![Updated Daily](https://img.shields.io/badge/Updated-Daily-brightgreen)
+![License](https://img.shields.io/badge/License-CC--BY--4.0-lightgrey)
+
+**Keywords:** Frappe, ERPNext, Frappe Framework, ERPNext updates, Frappe news, ERPNext releases, Frappe apps, ERPNext v16, Frappe Studio, Frappe Flow, Frappe Insights, ERPNext daily updates, open-source ERP, business software, workflow automation.
+
+## What is this?
+
+A daily log of what's happening in the Frappe / ERPNext world — for developers, consultants, and businesses running ERPNext. Every entry is researched from official sources, checked, and written in plain language with **what it means for you**.
+
+- 📅 **New update every morning** — `updates/YYYY-MM-DD.md`
+- 🆕 **New apps in one page** — [new-apps.md](new-apps.md) — every useful new Frappe / ERPNext app, with its GitHub link and install command
+- ✅ **Verified only** — no invented releases, no rumours. If there is no real update on a day, nothing is published.
+
+Made by [Irfan Zahoor](https://github.com/irfanzahoor) — Full-Stack Developer & ERP Specialist, NexTash, Lahore. Follow on [LinkedIn](https://www.linkedin.com/in/irfan-zahoor555/).
 
 ## How it works
 
@@ -17,7 +32,27 @@ Researched and curated daily by Muse, for [Irfan Zahoor](https://github.com/irfa
 
 ## New Apps — all in one place
 
-- [new-apps.md](new-apps.md) — every useful new Frappe / ERPNext app found, with date, what it does, and why it helps you.
+- [new-apps.md](new-apps.md) — every useful new Frappe / ERPNext app found, with date, what it does, why it helps, GitHub link, and `bench get-app` install command.
+
+## Topics
+
+`frappe` `erpnext` `frappe-framework` `erp` `daily-updates` `frappe-apps` `erpnext-updates` `business-software` `python` `open-source` `ai` `frappe-cloud` `erpnext-v16` `frappe-hr` `frappe-crm` `automation` `workflow-automation` `insights` `manufacturing-erp` `accounting-software`
+
+> These topics are also set on the repository itself, so the repo shows up in GitHub topic search for `frappe` and `erpnext`.
+
+## FAQ
+
+**Is this official?**
+No — this is an independent daily digest by Irfan Zahoor. All sources are linked, so you can verify everything.
+
+**How often is it updated?**
+Daily, every morning (Asia/Karachi time), when there is a verified update.
+
+**Where do the updates come from?**
+See the full source list below — Frappe Blog, Frappe Forum, Frappe Cloud Marketplace, and GitHub releases.
+
+**Can I use this for my ERPNext upgrade planning?**
+Yes — each update includes "What it means for you", including upgrade and staging advice. Always test upgrades on staging first.
 
 ## Sources checked daily
 
