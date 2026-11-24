@@ -11,7 +11,7 @@
 
 ## What is this?
 
-A daily log of what's happening in the Frappe / ERPNext world — for developers, consultants, and businesses running ERPNext. Every entry is researched from official sources, checked, and written in plain language with **what it means for you**.
+A daily log of what’s happening in the Frappe / ERPNext world — for developers, consultants, and businesses running ERPNext. Every entry is researched from official sources, checked, and written in plain language with **what it means for you**.
 
 - 📅 **New update every morning** — `updates/YYYY-MM-DD.md`
 - 🆕 **New apps in one page** — [new-apps.md](new-apps.md) — every useful new Frappe / ERPNext app, with its GitHub link and install command
@@ -28,6 +28,7 @@ Made by [Irfan Zahoor](https://github.com/irfanzahoor) — Full-Stack Developer 
 
 ## Updates
 
+- [2026-11-24](updates/2026-11-24.md) — ERPNext v15.126.0, CRM v16.3.0, Helpdesk v16.2.1, Insights v3.50.3, weekly changes 16–22 Nov, RedLine field-sales app
 - [2026-11-23](updates/2026-11-23.md) — ERPNext v16.60: Studio in Framework, Frappe Flow AI (alpha), Insights dashboards, Projects revamp
 
 ## New Apps — all in one place
@@ -51,7 +52,7 @@ Daily, every morning (Asia/Karachi time), when there is a verified update.
 **Where do the updates come from?**
 See the full source list below — Frappe Blog, Frappe Forum, Frappe Cloud Marketplace, and GitHub releases.
 
-**Can I use this for my ERPNext upgrade planning?**
+**Can I use this for ERPNext upgrade planning?**
 Yes — each update includes "What it means for you", including upgrade and staging advice. Always test upgrades on staging first.
 
 ## Sources checked daily
@@ -59,7 +60,7 @@ Yes — each update includes "What it means for you", including upgrade and stag
 ### Official Frappe sources
 - [Frappe Blog](https://frappe.io/blog)
 - [Frappe Times — monthly newsletter](https://frappe.io/times)
-- [Frappe Forum — Announcements](https://discuss.frappe.io/c/announcements)
+- [Frappe Forum — Announcements](https://discuss.frappe.io/c/announcement/20)
 - [Frappe Forum — ERPNext](https://discuss.frappe.io/c/erpnext)
 - [Frappe Forum — Frappe Framework](https://discuss.frappe.io/c/framework)
 - [Frappe Cloud Marketplace — new apps](https://cloud.frappe.io/marketplace)
@@ -79,7 +80,7 @@ Yes — each update includes "What it means for you", including upgrade and stag
 - [Frappe Marketplace — weekly changes](https://www.frappemarketplace.com/weekly)
 - [Frappe Forum — Show Your App / New App](https://discuss.frappe.io/c/developers)
 - [GitHub search: new Frappe apps](https://github.com/search?q=frappe+app+created%3A%3E2026-11-01&type=repositories)
-- [ERPNext documentation — What's New](https://docs.erpnext.com/)
+- [ERPNext documentation — What’s New](https://docs.erpnext.com/)
 
 ### AI & integrations (useful for ERPNext)
 - [Frappe Assistant Core (MCP server)](https://github.com/buildswithpaul/Frappe_Assistant_Core)
