@@ -2,6 +2,15 @@
 
 Every new app found during daily research, in one place. Only apps that can actually help an ERPNext user or developer are listed here — with what it does, why it helps, **and the GitHub link + install command, so you don’t waste time finding it**.
 
+## 2026-11-25
+
+### Vendalto — free Android app for taking ERPNext sales orders on the road (beta)
+- **What:** Android app for salespeople: take sales orders on the phone and they land in ERPNext as submitted Sales Orders. It connects straight to your own ERPNext server through the standard REST API (API key/secret) — nothing to install on the server. Tested with ERPNext v16.
+- **Why it helps:** Field sales teams taking orders on the road — a very common ask from distribution and trading clients. Free while in beta; Android only for now.
+- **GitHub:** No public GitHub repo found — it is an Android app, not a Frappe bench app, so there is no `bench get-app` install.
+- **Install:** Google Play: https://play.google.com/store/apps/details?id=com.vendalto.sales — website: https://vendalto.netlify.app/
+- **Source:** https://discuss.frappe.io/t/vendalto-a-free-android-app-for-taking-erpnext-sales-orders-on-the-road-beta/165896
+
 ## 2026-11-24
 
 ### RedLine — offline-first mobile app for ERPNext field sales reps

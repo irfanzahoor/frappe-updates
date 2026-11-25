@@ -28,6 +28,7 @@ Made by [Irfan Zahoor](https://github.com/irfanzahoor) — Full-Stack Developer 
 
 ## Updates
 
+- [2026-11-25](updates/2026-11-25.md) — Frappe Framework v16.61.0, Vendalto field-sales app
 - [2026-11-24](updates/2026-11-24.md) — ERPNext v15.126.0, CRM v16.3.0, Helpdesk v16.2.1, Insights v3.50.3, weekly changes 16–22 Nov, RedLine field-sales app
 - [2026-11-23](updates/2026-11-23.md) — ERPNext v16.60: Studio in Framework, Frappe Flow AI (alpha), Insights dashboards, Projects revamp
 
