@@ -41,7 +41,7 @@ Made by [Irfan Zahoor](https://github.com/irfanzahoor) — Full-Stack Developer 
 
 `frappe` `erpnext` `frappe-framework` `erp` `daily-updates` `frappe-apps` `erpnext-updates` `business-software` `python` `open-source` `ai` `frappe-cloud` `erpnext-v16` `frappe-hr` `frappe-crm` `automation` `workflow-automation` `insights` `manufacturing-erp` `accounting-software`
 
-> These topics are also set on the repository itself, so the repo shows up in GitHub topic search for `frappe` and `erpnext`.
+> Set these topics on the repository itself (repo page → About gear icon) so the repo shows up in GitHub topic search for `frappe` and `erpnext`.
 
 ## FAQ
 
