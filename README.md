@@ -13,18 +13,19 @@
 
 A daily log of what’s happening in the Frappe / ERPNext world — for developers, consultants, and businesses running ERPNext. Every entry is researched from official sources, checked, and written in plain language with **what it means for you**.
 
-- 📅 **New update every morning** — `updates/YYYY-MM-DD.md`
+- 📅 **Two updates a day** — morning 09:00 and evening 21:00 PKT: `updates/YYYY-MM-DD.md` (releases/news), `apps/YYYY-MM-DD.md` (that day's new apps), `benefits/YYYY-MM-DD.md` (how to use them for your benefit)
 - 🆕 **New apps in one page** — [new-apps.md](new-apps.md) — every useful new Frappe / ERPNext app, with its GitHub link and install command
-- ✅ **Verified only** — no invented releases, no rumours. If there is no real update on a day, nothing is published.
+- 📚 **Backfill** — [history.md](history.md) — what changed in the last 2 years (Nov 2024 – Nov 2026); [apps-catalog.md](apps-catalog.md) — 66 useful Frappe / ERPNext apps in 11 categories, each with a "how we can use it" line
+- ✅ **Verified only** — no invented releases, no rumours. If there is no real update on a day, a short honest quiet-day note is committed instead, so the log never skips a day.
 
 Made by [Irfan Zahoor](https://github.com/irfanzahoor) — Full-Stack Developer & ERP Specialist, NexTash, Lahore. Follow on [LinkedIn](https://www.linkedin.com/in/irfan-zahoor555/).
 
 ## How it works
 
-- Every morning, the latest Frappe / ERPNext releases, Frappe Forum posts, and official blog updates are checked.
+- Every morning and evening, the latest Frappe / ERPNext releases, Frappe Forum posts, and official blog updates are checked.
 - New Frappe apps from the Frappe Cloud Marketplace and GitHub are also checked — only apps that are useful for ERPNext users/developers are listed, with why they help.
 - Only verified updates are added — nothing is invented.
-- On days with no real update, no new file is added.
+- On days with no real update, a short honest note is still committed — the log never skips a day.
 
 ## Updates
 
@@ -36,6 +37,11 @@ Made by [Irfan Zahoor](https://github.com/irfanzahoor) — Full-Stack Developer 
 ## New Apps — all in one place
 
 - [new-apps.md](new-apps.md) — every useful new Frappe / ERPNext app found, with date, what it does, why it helps, GitHub link, and `bench get-app` install command.
+
+## Backfill — the last 2 years
+
+- [history.md](history.md) — what changed in Frappe / ERPNext in the last 2 years (Nov 2024 – Nov 2026): v15 era, Insights v3, Raven v2/v3, Studio, v16 beta and final, v16.50, v16.60 (Studio + Flow in core), CRM/Helpdesk renumbering, Frappe Cloud 2.0 beta, v16.61.0. Each item is short — what came, when, and one "How we can use it" line.
+- [apps-catalog.md](apps-catalog.md) — 66 useful Frappe / ERPNext apps in 11 categories (AI, POS, invoicing/OCR, HR, CRM, manufacturing, e-commerce, integrations, localisations, developer tools, productivity), each with what it does, why it helps, a "How we can use it" line, GitHub link and `bench get-app` install command.
 
 ## Topics
 
@@ -49,7 +55,7 @@ Made by [Irfan Zahoor](https://github.com/irfanzahoor) — Full-Stack Developer 
 No — this is an independent daily digest by Irfan Zahoor. All sources are linked, so you can verify everything.
 
 **How often is it updated?**
-Daily, every morning (Asia/Karachi time), when there is a verified update.
+Twice daily — morning 09:00 and evening 21:00 Asia/Karachi. Each day has three files: `updates/YYYY-MM-DD.md` (releases/news), `apps/YYYY-MM-DD.md` (new apps), `benefits/YYYY-MM-DD.md` (how to use them for your benefit).
 
 **Where do the updates come from?**
 See the full source list below — Frappe Blog, Frappe Forum, Frappe Cloud Marketplace, and GitHub releases.
