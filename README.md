@@ -41,7 +41,7 @@ Made by [Irfan Zahoor](https://github.com/irfanzahoor) — Full-Stack Developer 
 ## Backfill — the last 2 years
 
 - [history.md](history.md) — what changed in Frappe / ERPNext in the last 2 years (Nov 2024 – Nov 2026): v15 era, Insights v3, Raven v2/v3, Studio, v16 beta and final, v16.50, v16.60 (Studio + Flow in core), CRM/Helpdesk renumbering, Frappe Cloud 2.0 beta, v16.61.0. Each item is short — what came, when, and one "How we can use it" line.
-- [apps-catalog.md](apps-catalog.md) — 66 useful Frappe / ERPNext apps in 11 categories (AI, POS, invoicing/OCR, HR, CRM, manufacturing, e-commerce, integrations, localisations, developer tools, productivity), each with what it does, why it helps, a "How we can use it" line, GitHub link and `bench get-app` install command.
+- [apps-catalog.md](apps-catalog.md) — 66 useful Frappe / ERPNext apps in 11 categories, each category in its own file under `apps-catalog/` (AI, POS, invoicing/OCR, HR, CRM, manufacturing, e-commerce, integrations, localisations, developer tools, productivity) — each app with what it does, why it helps, a "How we can use it" line, GitHub link and `bench get-app` install command.
 
 ## Topics
 
