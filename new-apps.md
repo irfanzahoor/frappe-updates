@@ -2,6 +2,15 @@
 
 Every new app found during daily research, in one place. Only apps that can actually help an ERPNext user or developer are listed here — with what it does, why it helps, **and the GitHub link + install command, so you don’t waste time finding it**.
 
+## 2026-11-26
+
+### frappex-client — typed Python client for the Frappe / ERPNext REST API (sync + async)
+- **What:** Open-source Python library for working with a Frappe/ERPNext site from outside code — backend services, scheduled jobs, data pipelines and bots. Typed sync `Client` and `AsyncClient` with identical methods, automatic pagination (`iter_list`), a typed exception per failure (`NotFoundError`, `PermissionDeniedError`, `ValidationError`, `RateLimitError`…), and safe retries — reads and 429s only, writes are never retried so a network error cannot create duplicate documents. Secure defaults: HTTPS only, certificate checks cannot be disabled, secrets never logged. Fully typed (`mypy --strict`), one dependency (`httpx`), Python 3.10+. Tested against Frappe v14, v15 and v16. MIT licensed, early release (0.1).
+- **Why it helps:** The official `frappe-client` is archived and was never on PyPI, so integrations usually hand-write `requests` calls and re-solve pagination, error decoding and retry safety every time. This is the maintained replacement — very handy for NexTash integrations, sync jobs and bots talking to client ERPNext sites.
+- **GitHub:** https://github.com/Padmapriyan27/frappex-client
+- **Install:** Not a Frappe bench app — it is a Python package: `pip install frappex-client` — docs: https://frappex-client.zeal.ninja
+- **Source:** https://discuss.frappe.io/t/frappex-client-a-typed-async-ready-python-client-for-the-frappe-erpnext-rest-api/165958
+
 ## 2026-11-25
 
 ### Vendalto — free Android app for taking ERPNext sales orders on the road (beta)
@@ -21,6 +30,13 @@ Every new app found during daily research, in one place. Only apps that can actu
 - **GitHub:** https://github.com/abdullla00/Redline-Representative-App-ERPNEXT
 - **Install:** Not a Frappe bench app — it’s a Flutter app. Get it on Google Play, or clone and build it: `git clone https://github.com/abdullla00/Redline-Representative-App-ERPNEXT`
 - **Source:** https://discuss.frappe.io/t/introducing-redline-an-offline-first-mobile-app-for-erpnext-sales-representatives/165882
+
+### Itemflow Community — friendly item browser for teams new to ERPNext (v2.9.2)
+- **What:** A community Frappe app that gives teams a familiar file-explorer-style interface for ERPNext items: search items, manage multi-UOMs, monitor stock thresholds, toggle product photos, and link documents (Sales Orders, Purchase Orders, Quotations, Purchase Receipts). It does not replace core ERPNext — it is an auxiliary front-end to make daily navigation less overwhelming while staff get trained. Latest release v2.9.2 (24 Nov 2026) focused on item search and selection.
+- **Why it helps:** Client teams with no ERP experience often struggle with the standard Desk; this is a gentle on-ramp that can be shown to a client during onboarding. Built by a non-developer for their own small electrical-equipment business, so expect rough edges — check the code before promising it.
+- **GitHub:** https://github.com/TheManuNext/itemflow-community
+- **Install:** `bench get-app https://github.com/TheManuNext/itemflow-community`
+- **Source:** https://discuss.frappe.io/t/itemflow-community-a-custom-frappe-erpnext-app-built-for-my-small-business/165365
 
 ## 2026-11-23
 
