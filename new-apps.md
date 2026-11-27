@@ -2,6 +2,16 @@
 
 Every new app found during daily research, in one place. Only apps that can actually help an ERPNext user or developer are listed here — with what it does, why it helps, **and the GitHub link + install command, so you don’t waste time finding it**.
 
+## 2026-11-27
+
+### Fossible HIS (Biograph) — open-source hospital information system on Frappe/ERPNext
+- **What:** Production-grade Hospital Information System built natively on Frappe/ERPNext — EHR, OPD/IPD, ADT, bed management, LIS (LOINC), RIS (DICOM), pharmacy, billing and insurance/RCM, inventory, HR/payroll and accounting on one database and one API. A fork and enhancement of Marley Healthcare, by Tacten / FossibleWorks, launched publicly 24 November 2026. Standards: FHIR R4, HL7, DICOM, LOINC, ICD-10, SNOMED-CT; HIPAA-ready, ABDM/NABH support. Agent-ready via Hydra MCP (typed MCP tools over every doctype). GPL-3.0, $0 per-user fees, self-host anywhere; also a one-click install on Frappe Cloud.
+- **Why it helps:** Hospitals and clinics are a strong ERPNext vertical — they need OPD/IPD, pharmacy, lab, billing and HR in one system, and this is exactly that, already built. NexTash can offer hospital implementations without building the clinical side from scratch, and existing ERPNext Healthcare knowledge transfers directly.
+- **Note:** the repo was renamed from `biograph` to `HealthCentral`, default branch `biograph-fh`; the Frappe app inside is named `healthcare`. The product site calls it "Fossible HIS", the repo README calls it "Biograph" — same system.
+- **GitHub:** https://github.com/Tacten/HealthCentral
+- **Install:** `bench get-app https://github.com/Tacten/HealthCentral`
+- **Source:** https://www.fossibleworks.com/products/fossible-his/ · launch listing: https://www.nicheloom.com/launches/115993/
+
 ## 2026-11-26
 
 ### frappex-client — typed Python client for the Frappe / ERPNext REST API (sync + async)

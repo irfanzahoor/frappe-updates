@@ -29,6 +29,7 @@ Made by [Irfan Zahoor](https://github.com/irfanzahoor) — Full-Stack Developer 
 
 ## Updates
 
+- [2026-11-27](updates/2026-11-27.md) — No new releases; Fossible HIS hospital system (launched 24 Nov) picked up, rx_pharmily pharmacy connector noted
 - [2026-11-26](updates/2026-11-26.md) — ERPNext v16.61.0 & v15.127.0, CRM v16.4.0, Helpdesk v16.2.2, frappex-client Python library, Frappe Cloud 2.0 beta
 - [2026-11-25](updates/2026-11-25.md) — Frappe Framework v16.61.0, Vendalto field-sales app
 - [2026-11-24](updates/2026-11-24.md) — ERPNext v15.126.0, CRM v16.3.0, Helpdesk v16.2.1, Insights v3.50.3, weekly changes 16–22 Nov, RedLine field-sales app
