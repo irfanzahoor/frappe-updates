@@ -29,6 +29,7 @@ Made by [Irfan Zahoor](https://github.com/irfanzahoor) — Full-Stack Developer 
 
 ## Updates
 
+- [2026-11-28](updates/2026-11-28.md) — No new releases; v16.61.0 print-to-PDF bug, India E-Way Bill changes from 1 Jan 2027, CVE-2026-134426 note; new apps: mypos coffee-chain POS, QuickBooks-to-ERPNext migration + AI agents, servepos restaurant POS, ZKTeco attendance gateway
 - [2026-11-27](updates/2026-11-27.md) — No new releases; Fossible HIS hospital system (launched 24 Nov) picked up, rx_pharmily pharmacy connector noted
 - [2026-11-26](updates/2026-11-26.md) — ERPNext v16.61.0 & v15.127.0, CRM v16.4.0, Helpdesk v16.2.2, frappex-client Python library, Frappe Cloud 2.0 beta
 - [2026-11-25](updates/2026-11-25.md) — Frappe Framework v16.61.0, Vendalto field-sales app

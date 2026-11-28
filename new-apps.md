@@ -2,6 +2,38 @@
 
 Every new app found during daily research, in one place. Only apps that can actually help an ERPNext user or developer are listed here — with what it does, why it helps, **and the GitHub link + install command, so you don’t waste time finding it**.
 
+## 2026-11-28
+
+### mypos — POS for coffee shop chains on Frappe/ERPNext v16
+- **What:** A full point-of-sale app for coffee / drinks chains, built on ERPNext v16's own POS Invoice, POS Profile, shifts and accounting/stock — the app adds the counter operation layer: menu by Price List with sizes and paid toppings, takeaway/dine-in, walk-in customers, loyalty points, cash and VietQR/SePay bank transfer, kitchen screen (not started → done → completed, paid orders only), table cards, QR self-ordering from the phone, a customer-facing display, and an order-status TV board. Role-based workspaces (Cashier / Kitchen / Manager / Admin), shifts cannot close with open orders. Brand data lives on the Branch, so one install serves many branches. Tested on ERPNext 16.61.0. MIT licensed, with install and operations docs.
+- **Why it helps:** POS is one of the most-requested ERPNext add-ons for retail and food clients, and this one is complete and documented rather than a scaffold — cashier, kitchen and customer screens in one app, on top of native POS Invoices so accounting stays clean. A ready-made offer for cafes, juice bars and small restaurant chains.
+- **Note:** Payments are Vietnam-specific (VietQR via SePay) and prices are in VND — the payment methods would need swapping for Pakistani banks / QR payments, but the POS operation layer is generic.
+- **GitHub:** https://github.com/bvt1207/mypos
+- **Install:** `bench get-app https://github.com/bvt1207/mypos.git --branch version-16` then `bench --site <site> install-app mypos`
+- **Source:** https://github.com/bvt1207/mypos
+
+### erpnext-agent-tools — QuickBooks Online to ERPNext migration with full history, plus AI bookkeeping agents
+- **What:** Moves a QuickBooks Online company to ERPNext with its full history, proven correct against QuickBooks' own numbers — a CLI (`eat migrate extract` takes a read-only snapshot of every record, monthly trial balances and the journal; `eat migrate plan` dry-runs every document to be created, in order, for review). Then AI agents work the books: read-only by default, writing only through proposals a person approves inside ERPNext, with every call audited. Comes with a 6-minute narrated video demoed on a real Intuit sandbox company. MIT licensed.
+- **Why it helps:** QuickBooks-to-ERPNext migration is a classic NexTash service, and this tool does the hard part — verified full-history migration — plus a safe, auditable way to offer "AI bookkeeper" work on top of ERPNext. A strong demo for winning migration clients.
+- **Note:** The Frappe app lives in the `frappe_app/` subfolder (app name `agent_tools`) — install from that folder, not the repo root; the migration CLI is the main entry point. Video: https://youtu.be/cfwKiii5rdk
+- **GitHub:** https://github.com/nschwermann/erpnext-agent-tools
+- **Install:** Frappe app in `frappe_app/` (app `agent_tools`); migration CLI `eat` per the repo README
+- **Source:** https://github.com/nschwermann/erpnext-agent-tools
+
+### servepos — open-source restaurant POS for ERPNext (Frappe app + desktop + waiter app)
+- **What:** A restaurant POS: the Frappe app (41 doctypes) plus a Windows/macOS desktop POS and an Android waiter app, with guest menu and QR ordering. The project is mature — desktop releases are already at v2.19.3 — and was newly published on GitHub on 26 November 2026. AGPL-3.0.
+- **Why it helps:** Restaurants are a natural ERPNext POS vertical, and this covers the whole flow (tables, kitchen, payments, guest menu) with ready-made desktop and mobile apps instead of just a web screen. A credible package to offer restaurant clients.
+- **GitHub:** https://github.com/badeeltechnology/servepos
+- **Install:** `bench get-app https://github.com/badeeltechnology/servepos --branch version-16` then `bench --site <site> install-app servepos` — desktop POS and waiter APK from the repo README
+- **Source:** https://github.com/badeeltechnology/servepos
+
+### washingtonia_attendance — ZKTeco ADMS push-protocol attendance gateway for Frappe/HRMS v16
+- **What:** A ZKTeco attendance gateway that serves the ADMS `/iclock` endpoints itself (no nginx rewrite or proxy rule): terminals push punches, roster rows and biometric templates; the app keeps them as an append-only event log and projects punches into HRMS Employee Checkin records. The protocol ("wire") layer is stdlib-only and fixture-driven — every protocol rule is covered by a test fixture — with explicit invariants (persist, then acknowledge). Built for Frappe v16. MIT licensed, with CI and tests.
+- **Why it helps:** ZKTeco devices are everywhere in Pakistani offices and factories, and pushing their attendance into HRMS is a constant implementation ask. This is a well-engineered, tested gateway instead of a one-off script — a ready-made piece for HRMS implementations.
+- **GitHub:** https://github.com/azharul-islam/washingtonia_attendance
+- **Install:** `bench get-app https://github.com/azharul-islam/washingtonia_attendance.git` then `bench --site <site> install-app washingtonia_attendance`
+- **Source:** https://github.com/azharul-islam/washingtonia_attendance
+
 ## 2026-11-27
 
 ### Fossible HIS (Biograph) — open-source hospital information system on Frappe/ERPNext
