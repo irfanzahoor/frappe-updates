@@ -34,6 +34,13 @@ Every new app found during daily research, in one place. Only apps that can actu
 - **Install:** `bench get-app https://github.com/azharul-islam/washingtonia_attendance.git` then `bench --site <site> install-app washingtonia_attendance`
 - **Source:** https://github.com/azharul-islam/washingtonia_attendance
 
+### contract_management — Contract Lifecycle Management for ERPNext (evening)
+- **What:** A Contract Lifecycle Management app for Frappe/ERPNext: contracts with a counterparty portal API, built with CI (install + unit tests on every push to `develop`) and Frappe Semgrep linting. MIT licensed. The README is short on feature detail, so treat the scope as "contracts + counterparty portal" until a pilot confirms more.
+- **Why it helps:** Contracts (supplier agreements, customer contracts, renewals) are usually tracked in spreadsheets even at ERPNext clients — a CLM app inside ERPNext closes that gap, and the counterparty portal is a genuinely useful piece for letting the other side see their contract.
+- **GitHub:** https://github.com/susan2610/contract_management
+- **Install:** `bench get-app https://github.com/susan2610/contract_management --branch develop` then `bench --site <site> install-app contract_management`
+- **Source:** https://github.com/susan2610/contract_management
+
 ## 2026-11-27
 
 ### Fossible HIS (Biograph) — open-source hospital information system on Frappe/ERPNext
